@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(91.41deg, rgba(136, 193, 225, 0.5) -10.54%, rgba(136, 193, 225, 0) 103.85%);
+    color:black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 378px;
+height: 129.6px;
+top: 15px;
+left: 158px;
+
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.location {
+    text-align: right;
+}
+
+/* Body styles */
+.main-content {
+    padding: 10%;
+    background: linear-gradient(91.41deg, rgba(136, 193, 225, 0.5) -10.54%, rgba(136, 193, 225, 0) 103.85%);
+   
+
+}
+
+.main-content h1{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B0275;
+    
+}
+
+.main-content p{
+    font-family: Poppins;
+font-size: 26px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #8D8A8A;
+width: 1086px;
+height: 128px;
+top: 327px;
+left: 136px;
+
+
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-block {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+
+.product-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #071E4F;
+width: 270px;
+height: 33px;
+top: 241px;
+left: 10px;
+
+
+}
+
+.product-description {
+    margin-top: 5px;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: justified;
+color: #828181;
+width: 297px;
+height: 126px;
+top: 291px;
+left: 19px;
+
+}
+
+.product-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.why-choose {
+    margin-top: 30px;
+    width: 1265px;
+height: 645px;
+top: 1509px;
+left: 67px;
+
+}
+
+.choose-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.choose-img {
+    width: 111.36px;
+    height: 100px;
+    top: 1611px;
+    left: 67px;
+    
+    
+}
+
+.choose-content {
+    flex: 1;
+}
+
+.choose-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 369.7px;
+    height: 52px;
+    top: 1611px;
+    left: 234.03px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #071E4F;
+    ;
+
+}
+
+.choose-description {
+    margin-top: 5px;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+width: 1097.97px;
+height: 48px;
+top: 1663px;
+left: 234.03px;
+color: #8D8A8A;
+
+
+}
+
+
+/* Contact Us section styles */
+/* Contact Us section styles */
+.contact-us {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-title {
+    width: Hug (222px);
+height: Hug (34px);
+gap: 8px;
+
+}
+
+.contact-description {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: justified;
+width: 1299px;
+height: 104px;
+color: #000000;
+
+}
+
+.contact-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+
+}
+
+.contact-info {
+    flex: 1;
+    border: 1px solid #ddd; /* Border added for each block */
+    padding: 15px;
+    margin: 0 10px; 
+    background: #E8F9FD;
+
+}
+
+.contact-icon {
+    font-size: 2em;
+}
+
+.contact-titles {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-descriptions {
+    margin-top: 5px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar {
+        margin: 10px 0;
+    }
+
+    .location {
+        text-align: left;
+    }
+
+    .product-block {
+        width: 100%;
+    }
+
+    .choose-block {
+        flex-direction: column;
+    }
+
+    .choose-img {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
